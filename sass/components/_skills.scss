@@ -8,35 +8,36 @@
 }
 
 .skills__item {
-    &::before {
-        content: "";
-  display: block;
-  height: 120px;
-  border-radius: 4px;
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-    }
+  &::before {
+    content: "";
+    display: block;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
-.icon-antena {
-    &::before {
-background-image: url(../images/SVG/antenna.svg);
-    }
+.icon-antenna {
+  &::before {
+    background-image: url(../images/SVG/antenna.svg);
+  }
 }
+
 .icon-clock {
-    &::before {
-        background-image: url(../images/SVG/clock.svg);
-    }
+  &::before {
+    background-image: url(../images/SVG/clock.svg);
+  }
 }
 .icon-diagram {
-    &::before {
-         background-image: url(../images/SVG/diagram.svg);
-    }
+  &::before {
+    background-image: url(../images/SVG/diagram.svg);
+  }
 }
 .icon-astronaut {
-    &::before {
-        background-image: url(../images/SVG/astronaut.svg);
-    }
+  &::before {
+    background-image: url(../images/SVG/astronaut.svg);
+  }
 }
 .skills__title {
   margin-top: 30px;
