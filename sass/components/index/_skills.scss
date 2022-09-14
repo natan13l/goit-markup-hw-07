@@ -50,3 +50,33 @@
 .skills__txt {
   line-height: 1.71;
 }
+.social {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.social__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--main-bgcolor);
+
+  transition: background-color 250ms $transition-timing-function;
+}
+.social__link {
+  &:hover .social__logo,
+  &:focus .social__logo {
+    fill: var(--main-bgcolor);
+  }
+}
+.social__list:not(:last-child) {
+  margin-right: 10px;
+}
+.social__logo {
+  fill: #afb1b8;
+  margin: 12px 12px;
+
+  transition: fill 250ms $transition-timing-function;
+}

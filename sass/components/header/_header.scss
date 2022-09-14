@@ -19,22 +19,21 @@
   margin-right: 50px;
 }
 .head-menu {
-    align-items: center;
-    margin-left: 93px;
+  align-items: center;
+  margin-left: 93px;
 }
 .div-head {
   justify-content: space-between;
   align-items: center;
 }
 
- .head-menu {
+.head-menu {
   align-items: center;
   margin-left: 93px;
 }
 
 .head-menu__item {
   align-items: center;
-  
 }
 .nav-contact__link {
   display: flex;
@@ -44,19 +43,18 @@
 
 .head-menu__link {
   color: rgb(255, 255, 255);
-  
 }
 .head-menu__link {
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-    }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .header-nav__logo {
   color: #000000;
 }
 .header-nav__logo {
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -67,30 +65,29 @@
 }
 
 .nav-contact__link {
-    &:hover,
-    &:focus
-     {
-        color: var(--accent-color);
-    }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .nav-contact__link {
-    &:hover .nav-contact__icon,
-    &:focus .nav-contact__icon {
-       fill: var(--accent-color);  
-    }
+  &:hover .nav-contact__icon,
+  &:focus .nav-contact__icon {
+    fill: var(--accent-color);
+  }
 }
 
 .head-menu__link {
-    &:hover {
-         color: var(--accent-color);
-    }
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 .head-menu__link,
 .nav-contact__link {
   font-weight: 500;
   letter-spacing: 0.02em;
 
-  transition: color 250ms var(--transition-timing-function);
+  transition: color 250ms $transition-timing-function;
 }
 .head-menu__link {
   line-height: 1.14;
@@ -106,31 +103,31 @@
 }
 
 .head-menu__item {
-    .current {
-  position: relative;
-  color: var(--accent-color);
-}
-.current {
-  &::after {
-     position: absolute;
-  content: "";
+  .head-menu__link--current {
+    position: relative;
+    color: var(--accent-color);
+  }
+  .head-menu__link--current {
+    &::after {
+      position: absolute;
+      content: "";
 
-  display: block;
+      display: block;
 
-  background-color: rgba(33, 150, 243, 1);
-  border-radius: 2px;
-  width: 100%;
-  height: 4px;
+      background-color: rgba(33, 150, 243, 1);
+      border-radius: 2px;
+      width: 100%;
+      height: 4px;
 
-  margin-top: 28px;
-}
+      margin-top: 28px;
+    }
   }
 }
 .nav-contact__icon {
   fill: var(--pcolor);
   margin-right: 10px;
 
-  transition: fill 250ms var(--transition-timing-function);
+  transition: fill 250ms $transition-timing-function;
 }
 .nav-contact {
   align-items: center;

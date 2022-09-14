@@ -41,13 +41,13 @@
   font-weight: 700;
   line-height: 1.88;
 
-  transition: background-color 250ms var(--transition-timing-function);
+  transition: background-color 250ms $transition-timing-function;
 }
 .promo__button {
-    &:hover,
-    &:focus {
-         background-color: var(--button-hover-color);
-    }
+  &:hover,
+  &:focus {
+    background-color: var(--button-hover-color);
+  }
 }
 .promo__name,
 .promo__button {

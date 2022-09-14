@@ -9,7 +9,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
 
-  transition: opacity 250ms var(--transition-timing-function);
+  transition: opacity 250ms $transition-timing-function;
 }
 .modal {
   position: absolute;
@@ -18,12 +18,12 @@
   transform: translate(-50%, -50%);
   width: 528px;
   padding: 40px;
-  transition: transform 250ms var(--transition-timing-function) 100ms;
+  transition: transform 250ms $transition-timing-function 100ms;
   background-color: var(--main-bgcolor);
   z-index: 100;
 }
 .modal__icon {
-  transition: fill 250ms var(--transition-timing-function) 100ms;
+  transition: fill 250ms $transition-timing-function 100ms;
 }
 .modal__close {
   display: flex;
@@ -89,7 +89,7 @@
   z-index: 100;
   padding-left: 40px;
 
-  transition: border 250ms var(--transition-timing-function);
+  transition: border 250ms $transition-timing-function;
 
   font-size: 12px;
   line-height: 14px;
@@ -114,7 +114,7 @@
   top: 50%;
   transform: translateY(-50%);
 
-  transition: fill 250ms var(--transition-timing-function);
+  transition: fill 250ms $transition-timing-function;
 }
 
 .registration__comment {
@@ -127,7 +127,7 @@
 
   border: 1px solid rgba(33, 33, 33, 0.2);
 
-  transition: border 250ms var(--transition-timing-function);
+  transition: border 250ms $transition-timing-function;
 
   font-size: 12px;
   line-height: 14px;
@@ -143,7 +143,7 @@
 .privacy__link {
   color: var(--accent-color);
 
-  transition: text-decoration 250ms var(--transition-timing-function);
+  transition: text-decoration 250ms $transition-timing-function;
 }
 .privacy__link {
   &:hover,
@@ -166,7 +166,7 @@
 
   cursor: pointer;
 
-  transition: background-color 250ms var(--transition-timing-function);
+  transition: background-color 250ms $transition-timing-function;
 
   font-weight: 700;
   font-size: 16px;
@@ -209,7 +209,7 @@
   width: 16px;
   height: 15px;
 
-  transition: opasity 250ms var(--transition-timing-function);
+  transition: opasity 250ms $transition-timing-function;
 }
 .privacy__checkbox--checked {
   position: absolute;
